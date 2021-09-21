@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "pelis",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
