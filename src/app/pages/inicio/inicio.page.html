@@ -1,0 +1,106 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    
+
+
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+
+
+  
+    <ion-card-title class="ion-padding"><h5>Novedades</h5></ion-card-title>
+  <ion-slides>
+    <ion-slide>
+      <img src="/assets/img/por-2.jpg">
+    </ion-slide>
+    <ion-slide>
+      <img src="/assets/img/por-1.jpg">
+    </ion-slide>
+    <ion-slide>
+      <img src="/assets/img/por-3.jpg">
+    </ion-slide>
+  </ion-slides>
+    
+  
+  
+    <ion-card-title routerLink="/peliculas" mode="ios" class="ion-padding"><h6>Películas</h6></ion-card-title>
+    <ion-slides>
+      <ion-slide>
+    
+      <ion-row>
+        <ion-col>
+          <img src="/assets/img/pel1.jpg">
+        </ion-col>
+        <ion-col>
+          <img src="/assets/img/pel2.jpg">
+        </ion-col>
+        <ion-col>
+          <img src="/assets/img/pel3.jpg">
+        </ion-col>
+      </ion-row>
+      
+    </ion-slide>
+
+    <ion-slide>
+      
+        <ion-row>
+          <ion-col>
+            <img src="/assets/img/pel1.jpg">
+          </ion-col>
+          <ion-col>
+            <img src="/assets/img/pel2.jpg">
+          </ion-col>
+          <ion-col>
+            <img src="/assets/img/pel3.jpg">
+          </ion-col>
+        </ion-row>
+        
+      </ion-slide>
+    </ion-slides>
+  
+
+  
+    <ion-card-title routerLink="/series" mode="ios" class="ion-padding"><h6>Series</h6></ion-card-title>
+    <ion-slides>
+      <ion-slide>
+    <ion-row>
+      <ion-col>
+        <img src="/assets/img/ser1.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="/assets/img/ser2.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="/assets/img/ser3.jpg">
+      </ion-col>
+    </ion-row>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-row>
+          <ion-col>
+            <img src="/assets/img/ser1.jpg">
+          </ion-col>
+          <ion-col>
+            <img src="/assets/img/ser2.jpg">
+          </ion-col>
+          <ion-col>
+            <img src="/assets/img/ser3.jpg">
+          </ion-col>
+        </ion-row>
+          </ion-slide>
+  </ion-slides>
+  
+
+  
+</ion-content>
